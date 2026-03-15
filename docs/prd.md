@@ -32,6 +32,8 @@ The recommendation philosophy is conservative by default. The app should begin f
 
 The v1 product form is a local web app with guided decisions, light knowledge checks, inline citations, browser-local persistence, and a personalized setup plan with Markdown export.
 
+The delivery approach for the next phase is prototype-first. Before writing a detailed engineering spec, the project should validate the learning flow with crude local prototypes that test pacing, interaction style, tradeoff presentation, and the usefulness of the final setup plan.
+
 The core user flow is:
 
 1. Learn what OpenClaw is and why it is high risk by default.
@@ -45,6 +47,8 @@ The experience should stay focused on pre-install decision-making. It should not
 Inline citations are a product requirement. Claims and recommendations should be visibly tied back to the report corpus, but the app should not become a heavy research reader. Evidence should support the lesson without overwhelming it.
 
 Light knowledge checks should reinforce understanding at key points, but the product should not feel like a formal certification or exam.
+
+The first prototype should stay intentionally cheap and answer product questions rather than framework questions. It only needs to cover the core guided-decision flow, one or two representative tradeoff explanations, inline citation behavior, and a rough personalized plan screen.
 
 ## Scope
 
